@@ -1,0 +1,19 @@
+.container {
+  padding: 3px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px 20px;
+}
+
+.item {
+  padding: 10px;
+  color: #222f65;
+  text-transform: uppercase;
+  background-color: white;
+  box-shadow: 1px 1px 6px -3px black, -1px -1px 6px -3px rgb(255, 255, 255);
+  text-align: center;
+}
+
+.item:hover {
+  box-shadow: 0 1px 6px 3px #faf0d69d;
+}

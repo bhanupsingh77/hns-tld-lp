@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #e7ecff;
+}
+.container {
+  border: 2px solid #929ecc;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  margin: 100px 10px;
+  padding: 30px 5px;
+  min-height: 400px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 50px 10px;
+    margin-bottom: 150px;
+  }
+}
