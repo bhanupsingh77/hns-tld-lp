@@ -9,28 +9,28 @@ export default function TldCategoryList() {
         <h2 className={styles.titleText}>TOP LEVEL Domain CATOGORY</h2>
       </div>
       <div className={styles.categoryItem}>
-        <Link to="/tld/category/topPicks">
-          <h3 className={styles.text}>Top Picks</h3>
+        <Link className={styles.text} to="/tld/category/topPicks">
+          Top Picks
         </Link>
       </div>
       <div className={styles.categoryItem}>
-        <Link to="/tld/category/emojis">
-          <h3 className={styles.text}>Emojis</h3>
+        <Link className={styles.text} to="/tld/category/emojis">
+          Emojis
         </Link>
       </div>
       <div className={styles.categoryItem}>
-        <Link to="/tld/category/twoLetter">
-          <h3 className={styles.text}>Two Letter</h3>
+        <Link className={styles.text} to="/tld/category/twoLetter">
+          Two Letter
         </Link>
       </div>
       <div className={styles.categoryItem}>
-        <Link to="/tld/category/threeLetter">
-          <h3 className={styles.text}>Three Letter</h3>
+        <Link className={styles.text} to="/tld/category/threeLetter">
+          Three Letter
         </Link>
       </div>
       <div className={styles.categoryItem}>
-        <Link to="/tld/category/names">
-          <h3 className={styles.text}>Adult Names</h3>
+        <Link className={styles.text} to="/tld/category/names">
+          Adult Names
         </Link>
       </div>
     </div>

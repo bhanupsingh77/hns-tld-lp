@@ -8,6 +8,7 @@
 .item {
   padding: 10px;
   color: #222f65;
+  text-decoration: none;
   text-transform: uppercase;
   background-color: white;
   box-shadow: 1px 1px 6px -3px black, -1px -1px 6px -3px rgb(255, 255, 255);

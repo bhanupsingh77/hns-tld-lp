@@ -1,15 +1,13 @@
 .container {
   padding: 3px;
-  /* border: 1px solid black; */
-  /* min-height: 500px; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px 20px;
 }
 
 .item {
-  /* border: 1px solid rosybrown; */
   padding: 10px;
+  text-decoration: none;
   background-color: white;
   box-shadow: 1px 1px 6px -3px black, -1px -1px 6px -3px rgb(255, 255, 255);
   text-align: center;
