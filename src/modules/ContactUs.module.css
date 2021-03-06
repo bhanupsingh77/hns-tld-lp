@@ -11,3 +11,13 @@
   font-size: 30px;
   text-transform: uppercase;
 }
+
+.link {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  text-decoration-line: underline;
+
+  /* margin: 0 auto; */
+}

@@ -1,10 +1,13 @@
 import React from "react";
-// import styles from "../modules/TopPicks.module.css";
+import styles from "../modules/ContactUs.module.css";
 
-export default function contactUs() {
+export default function ContactUs() {
   return (
-    <div>
-      <p>hi-2</p>
+    <div className={styles.container}>
+      <p className={styles.text}>Contact us</p>
+      <a className={styles.link} href="mailto:tldseller@protonmail.com">
+        tldseller@protonmail.com
+      </a>
     </div>
   );
 }

@@ -1,17 +1,10 @@
 import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "../modules/Header.module.css";
 
 export default function Header() {
   const [isNavbarActive, setIsNavbarActive] = useState(false);
   const [onScroll, setOnScroll] = useState(false);
-  const [path, setPath] = useState();
-  const location = useLocation();
-
-  const onClickLink = (e) => {
-    // e.preventDefault();
-    console.log(location.pathname);
-  };
 
   const onNavbarScroll = () => {
     if (window.scrollY >= 5) {
@@ -35,11 +28,7 @@ export default function Header() {
           : styles.navbarContainer
       }
     >
-      <Link
-        to="/"
-        onClick={(e) => onClickLink(e)}
-        className={styles.navbarLogo}
-      >
+      <Link to="/" className={styles.navbarLogo}>
         Domain Market
       </Link>
       <nav
@@ -61,17 +50,16 @@ export default function Header() {
           </li>
           <li className={styles.navbarItem}>
             <Link
-              to="sld"
+              to="/sld"
               className={styles.navbarText}
               onClick={onHamburgerClick}
-              onClick={(e) => onClickLink(e)}
             >
               SLD
             </Link>
           </li>
           <li className={styles.navbarItem}>
             <Link
-              to="aboutUs"
+              to="/aboutUs"
               className={styles.navbarText}
               onClick={onHamburgerClick}
             >
@@ -80,7 +68,7 @@ export default function Header() {
           </li>
           <li className={styles.navbarItem}>
             <Link
-              to="contactUs"
+              to="/contactUs"
               className={styles.navbarText}
               onClick={onHamburgerClick}
             >
