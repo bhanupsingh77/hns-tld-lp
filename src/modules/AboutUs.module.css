@@ -10,3 +10,8 @@
 .text {
   font-size: 22px;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(100, 100, 204);
+}

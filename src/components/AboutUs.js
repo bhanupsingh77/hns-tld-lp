@@ -8,7 +8,13 @@ export default function AboutUs() {
         Handshake is a decentralized, permissionless naming protocol. Handshake
         will power the new internet revolution of decentralisation. We are
         selling our collection of Handshake TLDs and SLDs.
-        <a href="https://learn.namebase.io/">Learn more about Handshake.</a>
+        <a
+          className={styles.link}
+          href="https://learn.namebase.io/"
+          target="_blank"
+        >
+          Learn more about Handshake.
+        </a>
       </p>
     </div>
   );
